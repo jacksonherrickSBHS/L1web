@@ -1,0 +1,90 @@
+@font-face {
+    font-family: fonty;
+    src: url(fonts/SWEET_REVENGE.otf);
+}
+
+html {
+    background-color: darkgray;
+    background-image: url(images/tree.jpg);
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    min-height: 2vh;
+    width: 70%;
+}
+
+.logo {
+    display: block;
+    margin: 1vh auto 0px auto;
+    width: 40%;
+}
+
+body {}
+
+nav a {
+    background-color: black;
+    width: 10%;
+    display: inline-block;
+    margin: 10px 5%;
+    text-align: center;
+    font-size: 30px;
+    text-decoration-color: darkred;
+    font-family: fonty;
+}
+
+nav a:hover {
+    background-color: crimson;
+}
+
+section {
+    background-color: darkred;
+    min-height: 50vh;
+    margin: 5vh auto;
+    width: 50%;
+    text-align: center;
+    font-family: fonty;
+}
+
+.tee4 {
+    display: block;
+    margin: 5vh auto;
+
+}
+
+.wrap {
+    display: flex;
+
+}
+
+h1 {
+    display: block;
+    width: 100%;
+}
+
+p {
+    width: 70%;
+    vertical-align: top;
+}
+
+.box {
+    display: inline-block;
+    width: 30%;
+    height: 30vh;
+    background-color: white;
+}
+
+footer {
+    background-color: darkslategray;
+    width: 100%;
+    text-align: center;
+}
